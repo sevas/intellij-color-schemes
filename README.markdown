@@ -1,29 +1,41 @@
 
 # What is this ?
 
-A bunch of color schemes for the [PyCharm](http://www.jetbrains.com/pycharm/) python IDE. 
-These schemes were not created by me, I merely ported them, because I wasn't happy with 
-what I found online.
+A bunch of color schemes for the [PyCharm](http://www.jetbrains.com/pycharm/) python IDE.
+These schemes were not created by me, I merely ported them, because I wasn't happy with what I found online.
 
 Here is the current list:
 
-## Zen and Art 
+## Github
+
+These scheme uses github syntax highlighting and actually applies them as github does, instead of just copying color values and applying them arbitrarily to source code.
+
+
+
+## Zen and Art
 
 Adapted from [irfn](https://github.com/irfn/zen-and-art)
 
-![Zen & Art](https://github.com/sevas/pycharm-color-schemes/raw/master/Zen%20and520Art.png ) 
+![Zen & Art](https://github.com/sevas/pycharm-color-schemes/raw/master/screenshots/Zen%20and520Art.png )
 
 ## Solarized Light
 
 Adapted from [Ethan Schoonover](http://ethanschoonover.com/solarized)
 
-![Solarized Light](https://github.com/sevas/pycharm-color-schemes/raw/master/Solarized%20Light.png ) 
+![Solarized Light](https://github.com/sevas/pycharm-color-schemes/raw/master/screenshots/Solarized%20Light.png )
 
 
 
 # Installation
 
-The XML files should be copied to the following directory:
+## icls files
+
+PyCharm 4 uses xml files with the extension `.icls`.
+
+## XML files
+
+PyCharm 1.0 used the `.xml` extension for their color schemes.
+These files should be copied to the following directory:
 
 * OS X: `~/Library/Preferences/PyCharm10/colors/` 
 * Linux: `~/.PyCharm10/config/color`
