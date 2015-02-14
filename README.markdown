@@ -8,36 +8,20 @@ Here is the current list:
 
 ## Github
 
-These scheme uses github syntax highlighting and actually applies them as github does, instead of just copying color values and applying them arbitrarily to source code.
-
-
-
-## Zen and Art
-
-Adapted from [irfn](https://github.com/irfn/zen-and-art)
-
-![Zen & Art](https://github.com/sevas/pycharm-color-schemes/raw/master/screenshots/Zen%20and520Art.png )
+These scheme uses github syntax highlighting and actually applies them as github does, instead of just copying color values and applying them arbitrarily to source code. It takes however some liberties as Intellij's language parsers often allows more controls on what you can style.
 
 ## Solarized Light
 
 Adapted from [Ethan Schoonover](http://ethanschoonover.com/solarized)
 
-![Solarized Light](https://github.com/sevas/pycharm-color-schemes/raw/master/screenshots/Solarized%20Light.png )
-
 
 
 # Installation
 
-## icls files
-
 PyCharm 4 uses xml files with the extension `.icls`.
+These files should be copied to the following directory, dependeing on your platofrm:
 
-## XML files
-
-PyCharm 1.0 used the `.xml` extension for their color schemes.
-These files should be copied to the following directory:
-
-* OS X: `~/Library/Preferences/PyCharm10/colors/` 
-* Linux: `~/.PyCharm10/config/color`
-* Windows Vista and 7: `C:\Users\$USER\.PyCharm10\config\colors`
-* Windows XP: `C:\Documents and Settings\$USER\.PyCharm10\config\colors`
+* OS X: `~/Library/Preferences/PyCharm40/colors/` 
+* Linux: `~/.PyCharm40/config/color`
+* Windows Vista and 7: `C:\Users\$USER\.PyCharm40\config\colors`
+* Windows XP: `C:\Documents and Settings\$USER\.PyCharm40\config\colors`
