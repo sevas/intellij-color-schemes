@@ -1,12 +1,14 @@
 <scheme name="RealGithub" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="CARET_ROW_COLOR" value="ffffcc" />
-    <option name="GUTTER_BACKGROUND" value="ffffff" />
+    <option name="GUTTER_BACKGROUND" value="fafafa" />
     <option name="INDENT_GUIDE" value="e5e5e5" />
     <option name="LINE_NUMBERS_COLOR" value="b7b7b7" />
+    <option name="METHOD_SEPARATORS_COLOR" value="e5e5e5" />
     <option name="RIGHT_MARGIN_COLOR" value="e5e5e5" />
     <option name="SELECTED_INDENT_GUIDE" value="b7b7b7" />
     <option name="SELECTED_TEARLINE_COLOR" value="b7b7b7" />
@@ -1175,7 +1177,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="333333" />
-        <option name="BACKGROUND" value="fefefe" />
+        <option name="BACKGROUND" value="fafafa" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1188,7 +1190,7 @@
       <value>
         <option name="FOREGROUND" value="ff3e73" />
         <option name="FONT_TYPE" value="3" />
-        <option name="ERROR_STRIPE_COLOR" value="e470ff" />
+        <option name="ERROR_STRIPE_COLOR" value="ff0091" />
       </value>
     </option>
     <option name="TYPO">
