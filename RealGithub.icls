@@ -1,9 +1,10 @@
 <scheme name="RealGithub" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Roboto Mono" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
-  <option name="EDITOR_FONT_NAME" value="Fira Mono" />
   <colors>
-    <option name="CARET_ROW_COLOR" value="ffffcc" />
+    <option name="CARET_ROW_COLOR" value="fffbdd" />
     <option name="GUTTER_BACKGROUND" value="fafafa" />
     <option name="INDENT_GUIDE" value="e5e5e5" />
     <option name="LINE_NUMBERS_COLOR" value="b7b7b7" />
@@ -274,12 +275,12 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="888a88" />
+        <option name="FOREGROUND" value="6a737d" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -309,7 +310,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -322,12 +323,12 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -338,7 +339,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="a71d5d" />
+        <option name="FOREGROUND" value="d73a49" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -350,7 +351,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="969896" />
+        <option name="FOREGROUND" value="828c99" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -360,22 +361,22 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="86b3" />
+        <option name="FOREGROUND" value="5cc5" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="795da3" />
+        <option name="FOREGROUND" value="d73a49" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="86b3" />
+        <option name="FOREGROUND" value="5cc5" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -385,7 +386,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
+        <option name="FOREGROUND" value="6f42c1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -443,8 +444,7 @@
     </option>
     <option name="DJANGO_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="6b4d96" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="d73a49" />
       </value>
     </option>
     <option name="DJANGO_TAG_START_END">
@@ -509,7 +509,6 @@
     <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION">
       <value>
         <option name="FOREGROUND" value="108888" />
-    <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
       </value>
     </option>
     <option name="GHERKIN_REGEXP_PARAMETER">
@@ -534,6 +533,12 @@
       <value>
         <option name="FOREGROUND" value="0" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GLSL.QUALIFIER_TOKENS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GLSL.TYPE_SPECIFIER">
+      <value>
+        <option name="FOREGROUND" value="d73a49" />
       </value>
     </option>
     <option name="HAML_COMMENT">
@@ -1174,8 +1179,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="333333" />
-        <option name="BACKGROUND" value="f4f2f2" />
+        <option name="FOREGROUND" value="24292e" />
+        <option name="BACKGROUND" value="fffcfc" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
