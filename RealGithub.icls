@@ -1,10 +1,15 @@
 <scheme name="RealGithub" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Roboto Mono" />
-  <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <metaInfo>
+    <property name="modified">2018-09-10T00:23:42</property>
+    <property name="rainbow Default language">true</property>
+  </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="InputMono" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="CARET_ROW_COLOR" value="fffbdd" />
+    <option name="DOCUMENTATION_COLOR" value="ffffff" />
     <option name="GUTTER_BACKGROUND" value="fafafa" />
     <option name="INDENT_GUIDE" value="e5e5e5" />
     <option name="LINE_NUMBERS_COLOR" value="b7b7b7" />
@@ -20,7 +25,7 @@
   <attributes>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffc8c8" />
+        <option name="BACKGROUND" value="ffe2e9" />
       </value>
     </option>
     <option name="C.KEYWORD">
@@ -462,7 +467,7 @@
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="3b73b9" />
+        <option name="BACKGROUND" value="7fbbe4" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -535,7 +540,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GLSL.QUALIFIER_TOKENS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="GLSL.TYPE_SPECIFIER">
       <value>
         <option name="FOREGROUND" value="d73a49" />
@@ -705,6 +709,27 @@
     <option name="MAKO.TAG">
       <value>
         <option name="FOREGROUND" value="333333" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_1">
+      <value>
+        <option name="FOREGROUND" value="24292e" />
+        <option name="BACKGROUND" value="fffcfc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_2">
+      <value>
+        <option name="FOREGROUND" value="24292e" />
+        <option name="BACKGROUND" value="fffcfc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_3">
+      <value>
+        <option name="FOREGROUND" value="24292e" />
+        <option name="BACKGROUND" value="fffcfc" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1221,17 +1246,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ff00f3" />
       </value>
     </option>
-    <option name="XML_NS_PREFIX">
-      <value>
-        <option name="FOREGROUND" value="108888" />
-      </value>
-    </option>
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
-    <option name="XML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="80" />
-      </value>
-    </option>
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="888a88" />
