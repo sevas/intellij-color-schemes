@@ -4,7 +4,7 @@
     <property name="created">2018-07-30T10:24:55</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2018-12-31T21:37:39</property>
+    <property name="modified">2019-01-05T20:41:32</property>
     <property name="originalScheme">Oblivion</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Envy Code R" />
@@ -62656,6 +62656,30 @@
         <option name="FOREGROUND" value="808080" />
         <option name="EFFECT_COLOR" value="808080" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="OC.CONDITIONALLY_NOT_COMPILED">
+      <value>
+        <option name="FOREGROUND" value="69656e" />
+      </value>
+    </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="48c9cc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value />
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="9f9f" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="9f9f" />
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
