@@ -4,7 +4,7 @@
     <property name="created">2018-07-30T10:24:55</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-01-06T22:45:00</property>
+    <property name="modified">2019-01-06T23:00:53</property>
     <property name="originalScheme">Oblivion</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Envy Code R" />
@@ -663,6 +663,81 @@
     <option name="LOG_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="79abff" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="6290c5" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BOLD">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_SPAN">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_1">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_2">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_3">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_4">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_5">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HEADER_LEVEL_6">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HRULE">
+      <value>
+        <option name="FOREGROUND" value="6290c5" />
+      </value>
+    </option>
+    <option name="MARKDOWN_ITALIC">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
@@ -62684,6 +62759,18 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="MARKDOWN_STRIKE_THROUGH">
+      <value>
+        <option name="FOREGROUND" value="d25252" />
+        <option name="EFFECT_COLOR" value="d25252" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="MARKDOWN_TABLE_SEPARATOR">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff8647" />
@@ -62711,6 +62798,38 @@
         <option name="FOREGROUND" value="bfa4a4" />
       </value>
     </option>
+    <option name="PERL_ARRAY" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_ARRAY_BUILTIN" baseAttributes="PERL_ARRAY" />
+    <option name="PERL_DQ_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="PERL_DX_STRING">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
+        <option name="BACKGROUND" value="3c3f41" />
+      </value>
+    </option>
+    <option name="PERL_EMBED_MARKER" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="PERL_GLOB" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_GLOB_BUILTIN" baseAttributes="PERL_GLOB" />
+    <option name="PERL_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PERL_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="PERL_PACKAGE" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PERL_PACKAGE_CORE" baseAttributes="PERL_PACKAGE" />
+    <option name="PERL_PACKAGE_PRAGMA" baseAttributes="PERL_PACKAGE" />
+    <option name="PERL_REGEX_TOKEN" baseAttributes="DEFAULT_STRING" />
+    <option name="PERL_SCALAR_BUILTIN" baseAttributes="PERL_SCALAR" />
+    <option name="PERL_SQ_STRING" baseAttributes="DEFAULT_STRING" />
+    <option name="PERL_SUB" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="PERL_SUB_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="PERL_SUB_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PERL_VERSION" baseAttributes="PERL_NUMBER" />
+    <option name="PERL_XSUB" baseAttributes="PERL_SUB" />
+    <option name="POD_CODE" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="POD_TAG" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="POD_TEXT" baseAttributes="DEFAULT_DOC_COMMENT" />
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="PY.DECORATOR">
@@ -62847,6 +62966,11 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bc3f3c" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="df9326" />
       </value>
     </option>
   </attributes>
