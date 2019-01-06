@@ -19,6 +19,10 @@ often allows more control on what you can style.
 
 Adapted from [Ethan Schoonover](http://ethanschoonover.com/solarized)
 
+## Oblivion
+
+Adapted from [Oblivion for textmate](https://github.com/Ch00k/oblivion-tmTheme)
+
 
 # Installation
 
