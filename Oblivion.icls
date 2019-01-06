@@ -4,7 +4,7 @@
     <property name="created">2018-07-30T10:24:55</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.0.0</property>
-    <property name="modified">2019-01-05T20:41:32</property>
+    <property name="modified">2019-01-06T22:45:00</property>
     <property name="originalScheme">Oblivion</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Envy Code R" />
@@ -35,12 +35,12 @@
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="ccbd47" />
     <option name="GUTTER_BACKGROUND" value="373737" />
-    <option name="INDENT_GUIDE" value="535353" />
+    <option name="INDENT_GUIDE" value="3b3b3b" />
     <option name="LINE_NUMBERS_COLOR" value="5a5a5a" />
-    <option name="METHOD_SEPARATORS_COLOR" value="535353" />
+    <option name="METHOD_SEPARATORS_COLOR" value="3b3b3b" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
-    <option name="RIGHT_MARGIN_COLOR" value="4b4b4b" />
+    <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
     <option name="SELECTED_INDENT_GUIDE" value="7c7c7c" />
     <option name="SELECTED_TEARLINE_COLOR" value="0" />
     <option name="SELECTION_BACKGROUND" value="424341" />
@@ -88,6 +88,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
+    <option name="BASH.INTERNAL_COMMAND" baseAttributes="BASH.EXTERNAL_COMMAND" />
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
         <option name="ERROR_STRIPE_COLOR" value="29bccb" />
@@ -152,6 +154,20 @@
       <value>
         <option name="FOREGROUND" value="c7dd0c" />
       </value>
+    </option>
+    <option name="CSV_DEFAULT_COMMA">
+      <value>
+        <option name="FOREGROUND" value="d8d8d8" />
+        <option name="BACKGROUND" value="2120" />
+      </value>
+    </option>
+    <option name="CSV_DEFAULT_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="ce5a10" />
+      </value>
+    </option>
+    <option name="CSV_DEFAULT_STRING">
+      <value />
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
@@ -225,12 +241,12 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="d3d7cf" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="d3d7cf" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -259,18 +275,18 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="ccdf32" />
+        <option name="FOREGROUND" value="edd400" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="ccdf32" />
+        <option name="FOREGROUND" value="fdb40e" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="ccdf32" />
+        <option name="FOREGROUND" value="edd400" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -368,11 +384,12 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="fdb40e" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="d3d7cf" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -464,6 +481,12 @@
         <option name="BACKGROUND" value="5e5339" />
       </value>
     </option>
+    <option name="EDITORCONFIG_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="fdb40e" />
+        <option name="BACKGROUND" value="4b2500" />
+      </value>
+    </option>
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d197d9" />
@@ -510,6 +533,27 @@
         <option name="EFFECT_COLOR" value="f49810" />
         <option name="ERROR_STRIPE_COLOR" value="f49810" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="fdb40e" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ce5a10" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_INPUT_FILE">
+      <value>
+        <option name="FOREGROUND" value="d86100" />
+      </value>
+    </option>
+    <option name="HTTP_REQUEST_MESSAGE_BODY">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -582,6 +626,10 @@
         <option name="FOREGROUND" value="d197d9" />
       </value>
     </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="FOREGROUND" value="293429" />
@@ -62658,30 +62706,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="OC.CONDITIONALLY_NOT_COMPILED">
-      <value>
-        <option name="FOREGROUND" value="69656e" />
-      </value>
-    </option>
-    <option name="OC.MACRONAME">
-      <value>
-        <option name="FOREGROUND" value="48c9cc" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="OC.STRUCT_FIELD">
-      <value />
-    </option>
-    <option name="OC.STRUCT_LIKE">
-      <value>
-        <option name="FOREGROUND" value="9f9f" />
-      </value>
-    </option>
-    <option name="OC.TYPEDEF">
-      <value>
-        <option name="FOREGROUND" value="9f9f" />
-      </value>
-    </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bfa4a4" />
@@ -62693,17 +62717,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="edd400" />
-      </value>
-    </option>
-    <option name="PY.DOC_COMMENT_TAG">
-      <value>
-        <option name="FOREGROUND" value="edd400" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.FUNC_DEFINITION">
@@ -62729,6 +62742,22 @@
         <option name="FOREGROUND" value="edd400" />
       </value>
     </option>
+    <option name="REST.FIXED">
+      <value>
+        <option name="FOREGROUND" value="edd400" />
+      </value>
+    </option>
+    <option name="REST.INTERPRETED">
+      <value>
+        <option name="FOREGROUND" value="6290c5" />
+      </value>
+    </option>
+    <option name="REST.REF.NAME">
+      <value>
+        <option name="FOREGROUND" value="66d9ef" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="204012" />
@@ -62745,6 +62774,12 @@
       <value>
         <option name="FOREGROUND" value="d9e577" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TDIFF_FUZZY_MATCHED">
+      <value>
+        <option name="BACKGROUND" value="202020" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
