@@ -4,22 +4,28 @@
     <property name="created">2019-01-11T22:18:18</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.3.0.0</property>
-    <property name="modified">2019-01-11T23:13:43</property>
+    <property name="modified">2019-01-19T23:52:42</property>
     <property name="originalScheme">Ayu-mirage</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Dank Mono" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="CARET_COLOR" value="ffcc66" />
     <option name="CARET_ROW_COLOR" value="1c222c" />
     <option name="CONSOLE_BACKGROUND_KEY" value="212733" />
+    <option name="DOCUMENTATION_COLOR" value="3c3f41" />
     <option name="GUTTER_BACKGROUND" value="212733" />
-    <option name="INDENT_GUIDE" value="39424e" />
+    <option name="INDENT_GUIDE" value="2f3649" />
     <option name="LINE_NUMBERS_COLOR" value="ccc9c2" />
+    <option name="METHOD_SEPARATORS_COLOR" value="2f3649" />
+    <option name="RIGHT_MARGIN_COLOR" value="2f3649" />
     <option name="SELECTED_INDENT_GUIDE" value="39424e" />
     <option name="SELECTION_BACKGROUND" value="293847" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="292e3f" />
+    <option name="SEPARATOR_BELOW_COLOR" value="292e3f" />
+    <option name="VISUAL_INDENT_GUIDE" value="292e3f" />
     <option name="WHITESPACES" value="39424e" />
   </colors>
   <attributes>
@@ -87,6 +93,11 @@
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="73d0ff" />
+      </value>
+    </option>
+    <option name="CMD_LABEL">
+      <value>
+        <option name="FOREGROUND" value="fff59f" />
       </value>
     </option>
     <option name="COFFEESCRIPT.BAD_CHARACTER">
@@ -846,6 +857,16 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INI.KEY">
+      <value>
+        <option name="FOREGROUND" value="5ccfe6" />
+      </value>
+    </option>
+    <option name="INI.VALUE">
+      <value>
+        <option name="FOREGROUND" value="bae67c" />
+      </value>
+    </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="273627" />
@@ -1175,6 +1196,11 @@
         <option name="FOREGROUND" value="5ccfe6" />
       </value>
     </option>
+    <option name="PY.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ccc9c2" />
+      </value>
+    </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
         <option name="FOREGROUND" value="ffd580" />
@@ -1195,6 +1221,11 @@
       <value>
         <option name="FOREGROUND" value="5c6773" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.METHOD_CALL">
+      <value>
+        <option name="FOREGROUND" value="ccc9c2" />
       </value>
     </option>
     <option name="PY.OPERATION_SIGN">
@@ -1712,7 +1743,7 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="ERROR_STRIPE_COLOR" value="287bde" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -1729,7 +1760,7 @@
       <value>
         <option name="BACKGROUND" value="4a3f10" />
         <option name="EFFECT_COLOR" value="ccc9c2" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
+        <option name="ERROR_STRIPE_COLOR" value="9a9a00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
