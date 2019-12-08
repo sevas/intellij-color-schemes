@@ -1,10 +1,10 @@
 <scheme name="RealGithub" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-09-10T00:23:42</property>
+    <property name="modified">2019-09-22T13:43:46</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
-  <option name="CONSOLE_FONT_NAME" value="InputMono" />
+  <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
@@ -64,9 +64,10 @@
         <option name="FOREGROUND" value="108888" />
       </value>
     </option>
-    <option name="CONSOLE_BLACK_OUTPUT">
+    <option name="CONSOLE_BLACK_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="2e2e2e" />
+        <option name="FOREGROUND" value="2769e7" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
@@ -74,9 +75,16 @@
         <option name="FOREGROUND" value="3b73b9" />
       </value>
     </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT" baseAttributes="CONSOLE_CYAN_OUTPUT" />
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="29afad" />
+        <option name="FOREGROUND" value="abdd8" />
+      </value>
+    </option>
+    <option name="CONSOLE_DARKGRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="555555" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -84,14 +92,19 @@
         <option name="FOREGROUND" value="595959" />
       </value>
     </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="cf00" />
+      </value>
+    </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="8000" />
+        <option name="FOREGROUND" value="309144" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="981351" />
+        <option name="FOREGROUND" value="cb196c" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
@@ -104,21 +117,23 @@
         <option name="FOREGROUND" value="2e2e2e" />
       </value>
     </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="e94200" />
+      </value>
+    </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d6420e" />
+        <option name="FOREGROUND" value="ae1400" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="2e2e2e" />
+        <option name="FOREGROUND" value="2a56b5" />
       </value>
     </option>
-    <option name="CONSOLE_WHITE_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="dedede" />
-      </value>
-    </option>
+    <option name="CONSOLE_WHITE_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT" baseAttributes="CONSOLE_YELLOW_OUTPUT" />
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffc61e" />
@@ -567,6 +582,9 @@
         <option name="BACKGROUND" value="f7e7f1" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="121289" />
@@ -690,6 +708,14 @@
         <option name="FOREGROUND" value="333333" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
     <option name="LESS_INJECTED_CODE">
       <value>
         <option name="BACKGROUND" value="edfced" />
@@ -730,6 +756,12 @@
       <value>
         <option name="FOREGROUND" value="24292e" />
         <option name="BACKGROUND" value="fffcfc" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="99ccbb" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -956,6 +988,31 @@
       </value>
     </option>
     <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
+    <option name="RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="b5127b" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="5ad8" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="499f5d" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="dd8b00" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="df0064" />
+      </value>
+    </option>
     <option name="RHTML_COMMENT_ID">
       <value>
         <option name="FOREGROUND" value="dd1144" />
